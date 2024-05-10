@@ -1,0 +1,71 @@
+.principal {
+  margin: 5px
+}
+  legend {
+    text-align: center;
+  }
+.Red {
+  color: rgb(255, 0, 0);
+  padding: auto;
+  text-align: center;
+}
+
+.capinha {
+  padding: 10;
+  top: 100px;
+}
+
+.itadori {
+  padding: 5px;
+  max-width: 200px;
+}
+.anime {
+  color: rgb(0, 255, 0)
+  margin: auto;
+  padding: -10px;
+  size: 5px;
+}
+
+.title {
+color: rgb(255, 127, 0);}
+
+.menu {
+  font-family: sans-serif;
+  padding: 20px;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+h1 {
+  font-size: 30px;
+  margin-top: -20px;
+}
+h1, p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+margin-botton: 10px;
+  max-width: 300px;
+}
+
+a {
+  color: #0000FF;
+}
+
+a:visited {
+  color: rgb(0 ,0 ,255);
+}
+
+a:hover {
+  color: rgb(0, 200, 0);
+}
+
+a:active {
+  color: rgb(255, 0, 0);
