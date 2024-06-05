@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   <meta charset="UTF-8">
+   <title>VitaLife</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">VitaLife</h1>
+        <p id="description">crie sua conta VitaLife</p>
+        <form id="survey-form" name="survey-form">
+            <label for="name">Nome:</label>
+            <input required type="text" id="name" name="name" placeholder="seu nome">
+
+            <label for="age">Idade (Opcional):</label>
+            <input type="number" id="age" name="age" min="15" max="120" placeholder="idade">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="e-mail">
+
+            <label for="password">Senha:</label>
+            <input required type="password" id="password" name="password" pattern=".{6,}" title="A senha deve ter pelo menos 6 caracteres" placeholder="senha">
+            <fieldset>
+                <legend>experiencia com exercicios?</legend>
+                <input type="radio" id="sim" name="experience"  checked> Sim</>
+                <input type="radio" id="nao" name="experience"> Não</label>
+            </fieldset>
+
+            <label for="bio">Fale sobre sua rotina</label>
+            <textarea id="experiencia" name="experiencia" rows="3" cols="30" placeholder="Escreva aqui..."></textarea>
+
+              <a class="anime" type="button" href="" target="_blank">INICAR SESSÃO</a>
+
+
+        </form>
+    </div>
+</body>
+</html>
